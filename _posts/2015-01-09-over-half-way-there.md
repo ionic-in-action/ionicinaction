@@ -11,4 +11,4 @@ Today, Jan 9, Ionic is one of the [featured books on Manning's Deal of the Day](
 
 Looking forward, chapter 8 will dig deeper into Cordova and how to leverage ngCordova in order to integrate your app deeper with the device. Chapter 9 will cover testing and debugging techniques that will empower you to develop with confidence. Lastly, chapter 10 will focus on taking your finished app and getting it published to the App Store and Play Store.
 
-Thanks for all of the support thus far, and if you do grab a copy please connect on the author forums and let me know how you like it!
+I also decided to rebuild the site, and so I'll be able to post a bit more often and easily. Thanks for all of the support thus far, and if you do grab a copy please connect on the author forums and let me know how you like it!

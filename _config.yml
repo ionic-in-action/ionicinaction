@@ -1,0 +1,27 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+     title: Ionic In Action
+
+title: Ionic In Action
+description: Ionic In Action - Learn the Ionic Framework and build amazing apps!
+author:
+  name: Jeremy Wilken
+  github: gnomeontherun
+  twitter: gnomeontherun
+  email_md5: 1f1edef3d9797ce14e02aaf0d731d579
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+baseurl: /ionicinaction

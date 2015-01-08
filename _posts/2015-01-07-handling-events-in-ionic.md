@@ -4,7 +4,7 @@ title: Handling Events in Ionic
 date: 2015-01-10
 categories: Tutorial
 tags: []
-#published: false
+published: false
 ---
 When we build mobile apps, we are building for a touch interface. That means we can't rely on the traditional mouse events such as click and mouseover. Rather we want to be on the lookout for events such as swipe, drag, and taps.
 

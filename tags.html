@@ -29,7 +29,7 @@ group: navigation
       <h2 style="margin-top: 0px">Posts tagged  with {{ this_word }}</h2>
       <ul class="list-unstyled">
         {% for post in site.tags[this_word] %}{% if post.title != null %}
-          <li style="line-height: 35px;"><a href="{{ site.BASE_PATH }}{{post.url}}">{{post.title}}</a> <span class="text-muted">- {{ post.date | date: "%B %d, %Y" }}</span></li>
+          <li style="line-height: 35px;"><a href="{{ site.baseurl }}{{post.url}}">{{post.title}}</a> <span class="text-muted">- {{ post.date | date: "%B %d, %Y" }}</span></li>
         {% endif %}{% endfor %}
       </ul>
     </div>

@@ -1,10 +1,10 @@
 <! -- sidebar.html -->
 <header class="sidebar-header" role="banner">
-	<a href="{{ site.BASE_PATH }}/">
+	<a href="{{ site.baseurl }}/">
 		<span class="icon ion-ionic"></span>
 	</a>
 	<h3 class="title">
-    <a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
+    <a href="{{ site.baseurl }}/">{{ site.title }}</a>
   </h3>
 </header>
 
@@ -29,7 +29,7 @@
 		</li>
 		{% endif %}
 		<li>
-			<a class="btn btn-default" href="{{ site.BASE_PATH }}/{{ site.rss_path }}">
+			<a class="btn btn-default" href="{{ site.baseurl }}/{{ site.rss_path }}">
 				<i class="icon ion-social-rss"></i>
 			</a>
 		</li>
@@ -38,6 +38,6 @@
 
 <div>
 	<h3 class="title">Get the book</h3>
-	<p><a href="http://www.manning.com/wilken?a_aid=ionicinaction"><img src="{{ site.BASE_PATH }}/assets/media/wilken_cover150.jpg" width="80" class="img-left" /></a> Ionic in Action is available in early access version from Manning. <a href="http://www.manning.com/wilken?a_aid=ionicinaction">Get it today</a> and start learning now!</p>
+	<p><a href="http://www.manning.com/wilken?a_aid=ionicinaction"><img src="{{ site.baseurl }}/assets/media/wilken_cover150.jpg" width="80" class="img-left" /></a> Ionic in Action is available in early access version from Manning. <a href="http://www.manning.com/wilken?a_aid=ionicinaction">Get it today</a> and start learning now!</p>
 </div>
 <! -- sidebar.html end -->

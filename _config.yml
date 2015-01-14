@@ -5,6 +5,7 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: pygments
 markdown: kramdown
+permalink: title
 
 defaults:
   -
@@ -24,4 +25,4 @@ author:
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
-baseurl: 
+baseurl:

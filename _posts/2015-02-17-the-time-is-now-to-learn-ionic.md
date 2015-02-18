@@ -1,7 +1,7 @@
 ---
 layout: post
-title: The time is Now to learn Ionic
-date: 2015-03-17
+title: The time is now to learn Ionic
+date: 2015-02-17
 categories: Musings
 tags: [musings]
 ---

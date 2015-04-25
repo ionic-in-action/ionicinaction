@@ -3,11 +3,12 @@ layout: post
 title: Spending time with the Ionic team
 date: 2015-03-15
 categories: Musings
-tags: [musings]
 ---
 I had the privilege to attend ng-conf at the start of March, and I had the opportunity to meet several members of the Ionic team. To be fair, I've had a half dozen or so video chats with some of the team members during the course of writing Ionic in Action, but I hadn't actually met anyone in person.
 
 I'd like to share some of the insights I gained about this amazing team and how it just enhances my respect for Ionic.
+
+<!--more-->
 
 ### The Ionic team is wicked smart
 

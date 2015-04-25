@@ -3,9 +3,10 @@ layout: post
 title: Over half way there
 date: 2015-01-09
 categories: Book
-tags: [book, deal]
 ---
 I wanted to provide a quick update on the status of the book. The book is over half way done, and I'm nearly done with chapter 6 and have planned to finish chapter 7 by mid January. Chapter 3 was recently completed, which is an Angular primer for those who are need to Angular. Chapters 4-6 are my favorite since they focus on building three pretty neat apps using Ionic's components and structure. Chapter 7 will provide a number of advanced techniques to improve your apps.
+
+<!--more-->
 
 Today, Jan 9, Ionic is one of the [featured books on Manning's Deal of the Day](http://www.manning.com/wilken?a_aid=ionicinaction). If you have some money burning a hole in your pocket, I would be honored if you grabbed a copy.
 

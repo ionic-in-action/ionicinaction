@@ -3,9 +3,10 @@ layout: post
 title: The time is now to learn Ionic
 date: 2015-02-17
 categories: Musings
-tags: [musings]
 ---
 If you have been looking to build mobile apps but haven't yet settled on Ionic, now is the best time to make the choice. I've compiled a list of reasons why Ionic is heating up and why you will want to be ready to build apps with it.
+
+<!--more-->
 
 ### Ionic is a top 50 GithHub project
 

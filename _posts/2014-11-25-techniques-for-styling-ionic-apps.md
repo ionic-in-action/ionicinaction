@@ -2,12 +2,13 @@
 layout: post
 title: Techniques for styling Ionic apps
 date: 2014-11-25
-categories: [Tips]
-tags: [styling]
+categories: Tips
 ---
 There are many ways that you can manage the CSS for your Ionic app, and I'd like to share a few tips how I prefer to keep my CSS clean.
 
 Disclaimer. I'm not as concerned about CSS optimization in a hybrid app when the CSS is bundled with the app itself. There are two primary reason to optimize CSS, to speed up the delivery of the file over HTTP and to minimize the number of CSS rules the browser has to track. When the file is bundled in the app, there is almost no latency to load the file and that takes care of the first reason. I still attempt to keep my CSS as lean as possible and avoid unnecessary rules for the browser, and you could run it through [Uncss](https://github.com/giakki/uncss) to clean out unused selectors.
+
+<!--more-->
 
 ## Tip 1 - Use SASS and change defaults
 

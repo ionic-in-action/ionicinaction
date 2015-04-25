@@ -3,9 +3,10 @@ layout: post
 title: What you need to know to start building mobile apps with the Ionic Framework
 date: 2014-10-18
 categories: Tips
-tags: [tips]
 ---
 I've been asked a few times what someone needs to know before they can use the Ionic Framework. I believe anyone can learn Ionic and become an effective mobile app developer, but there are a number of skills you will need to have a command of to be successful. Depending on your style of learning, you might find it best to pick up each skill individually or you might prefer to jump in head first and muddle through it all together. I'll give you some tips and point you to some resources to help you get started.
+
+<!--more-->
 
 ## What you really have to know to build Ionic apps
 

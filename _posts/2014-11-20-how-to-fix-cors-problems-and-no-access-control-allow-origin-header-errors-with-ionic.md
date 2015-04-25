@@ -3,11 +3,12 @@ layout: post
 title: How to fix CORS problems and No Access-Control-Allow-Origin header errors with Ionic
 date: 2014-11-20
 categories: Tutorial
-tags: [tips, tutorial]
 ---
 A new solution has been built into the Ionic CLI, [read about it here]({% post_url 2015-01-14-how-to-fix-cors-issues-revisited %}).
 
 When building a hybrid app with Ionic, you will often need to load data from some API. When you are running your Ionic app in the browser using `ionic serve`, it usually runs on `localhost:8100`. However if you have to load data from another domain or port you might get this type of error.
+
+<!--more-->
 
     No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://localhost:8100' is therefore not allowed access.
 

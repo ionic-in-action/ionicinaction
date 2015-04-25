@@ -1,34 +1,34 @@
 <!DOCTYPE html>
-<html class='no-js' lang='en'>
+<html class="no-js" lang="en">
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>{{ page.title }}</title>
-      <meta content='width=device-width, initial-scale=1.0' name='viewport'>
-      <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-      <link href='{{ site.url }}/css/framework.css' rel='stylesheet'>
-      <link href='{{ site.url }}/css/syntax.css' rel='stylesheet'>
-      <link href='{{ site.url }}/css/style.css' rel='stylesheet'>
-      <link href='{{ site.url }}/css/fontello.css' rel='stylesheet'>
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+      <link href="{{ site.url }}/css/framework.css" rel="stylesheet">
+      <link href="{{ site.url }}/css/syntax.css" rel="stylesheet">
+      <link href="{{ site.url }}/css/style.css" rel="stylesheet">
+      <link href="{{ site.url }}/css/fontello.css" rel="stylesheet">
 
-      <!-- // <script src='{{ site.url }}/js/modernizr.js'></script> -->
+      <!-- // <script src="{{ site.url }}/js/modernizr.js"></script> -->
 
     </head>
     <body>
-      <div class='contain-to-grid sticky'>
-        <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
-          <ul class='title-area'>
-            <li class='name'>
+      <div class="contain-to-grid sticky">
+        <nav class="top-bar" data-options="sticky_on: large" data-topbar="">
+          <ul class="title-area">
+            <li class="name">
               <h1>
-                <img src='{{site.url}}/images/ionic-logo.png'>
-                <a href='/'>{{ site.name }}</a>
+                <img src="{{site.url}}/images/ionic-logo.png">
+                <a href="/">{{ site.name }}</a>
               </h1>
             </li>
-            <li class='toggle-topbar menu-icon'>
-              <a href='#'>Menu</a>
+            <li class="toggle-topbar menu-icon">
+              <a href="#">Menu</a>
             </li>
           </ul>
-          <section class='top-bar-section'>
+          <section class="top-bar-section">
             <ul class="right">
               {% for item in site.data.nav %}
                 {% if item.section_id == page.section_id %}
@@ -40,7 +40,7 @@
                 {% if item.children %}
                   <li class="has-dropdown {{active_class}}">
                     <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
-                    <ul class='dropdown'>
+                    <ul class="dropdown">
                       {% for child in item.children %}
                         <li>
                           <a href="{{site.url}}/{{ child.path }}">{{ child.name }}</a>
@@ -63,30 +63,30 @@
       {{ content }}
 
 
-      <div class='footer centered-text'>
-        <div class='spacing'></div>
-        <div class='row'>
-          <div class='large-12 columns'></div>
-          <div class='spacing'></div>
-          <div class='spacing'></div>
-          <div class='socials centered-text'>
-            <a href='http://www.manning.com/wilken?a_aid=ionicinaction'>
-              <i class='icon-book grey'></i> Get Ionic in Action Book
+      <div class="footer centered-text">
+        <div class="spacing"></div>
+        <div class="row">
+          <div class="large-12 columns"></div>
+          <div class="spacing"></div>
+          <div class="spacing"></div>
+          <div class="socials centered-text">
+            <a href="http://www.manning.com/wilken?a_aid=ionicinaction">
+              <i class="icon-book grey"></i> Get Ionic in Action Book
             </a>
-            <a href='https://twitter.com/ionicinaction'>
-              <i class='icon-twitter grey'></i> @ionicinaction
+            <a href="https://twitter.com/ionicinaction">
+              <i class="icon-twitter grey"></i> @ionicinaction
             </a>
-            <a href='https://twitter.com/gnomeontherun'>
-              <i class='icon-twitter grey'></i> @gnomeontherun
+            <a href="https://twitter.com/gnomeontherun">
+              <i class="icon-twitter grey"></i> @gnomeontherun
             </a>
-            <a href='https://github.com/ionic-in-action'>
-              <i class='icon-github grey'></i> @ionic-in-action
+            <a href="https://github.com/ionic-in-action">
+              <i class="icon-github grey"></i> @ionic-in-action
             </a>
-            <a href='http://ionicinaction/feed.xml'>
-              <i class='icon-rss grey'></i> blog feed
+            <a href="http://ionicinaction/feed.xml">
+              <i class="icon-rss grey"></i> blog feed
             </a>
           </div>
-          <p class='copyright'>&copy; {{ site.time | date: '%Y' }} by Jeremy Wilken.</p>
+          <p class="copyright">&copy; {{ site.time | date: "%Y" }} by Jeremy Wilken.</p>
         </div>
       </div>
 
@@ -96,7 +96,7 @@
 
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'ionicinaction';
+    var disqus_shortname = "ionicinaction";
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function () {

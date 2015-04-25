@@ -18,7 +18,7 @@ section_id: blog
     </div>
     <div class="content">
       {{post.excerpt}}
-      <a class="button" href="{{site.url}}{{post.url}}#disqus_thread">Comments</a>
+      <a class="button disqus-comment-count" data-disqus-url="{{site.url}}{{post.url}}" href="{{site.url}}{{post.url}}#disqus_thread">Comments</a>
     </div>
   </div>
 {% endfor %}

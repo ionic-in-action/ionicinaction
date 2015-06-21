@@ -44,8 +44,8 @@ Here's a [working example](http://play.ionic.io/app/f9c3230ab47b) showing the di
 
 #### iOS Screenshot
 
-![iOS Time Formatting]({{ site.baseurl }}/images/formatted-time-ios.png)
+<img src="{{ site.baseurl }}/images/formatted-time-ios.png" alt="iOS Time Formatting" style="height: 500px" />
 
 #### Android Screenshot
 
-![Android Time Formatting]({{ site.baseurl }}/images/formatted-time-android.png)
+<img src="{{ site.baseurl }}/images/formatted-time-android.png" alt="Android Time Formatting" style="height: 500px" />

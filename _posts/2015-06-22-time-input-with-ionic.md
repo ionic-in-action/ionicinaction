@@ -17,7 +17,7 @@ While trying to fix this, I discovered a post from [Mark & Ruth](http://mark.zea
 
 Fortunately, the fix just required a bit of regex changes.
 
-```
+{% highlight javascript linenos %}
 .directive('formattedTime', function ($filter) {
 
   return {
@@ -36,7 +36,7 @@ Fortunately, the fix just required a bit of regex changes.
   };
 
 });
-```
+{% endhighlight %}
 
 The `formattedTime` directive simply kills the seconds and milliseconds so they don't show up in the view. This solves the display problem in Chrome. Again, Android has to be different. It will no longer show the milliseconds, but insists on showing the seconds.
 

@@ -16,7 +16,7 @@ Ionic is one of the top 50 projects on GitHub. It is about a year old, and it ha
 
 Most of Ionic's power thus far has come from the framework that you use to build mobile interfaces. However Ionic has much more to offer in their platform features. Some features are available today, such as
 * [Ionic View](https://view.ionic.io) - A way to share your apps with others without submitting it to a store. Perfect for demoning the app for a client.
-* [Ionic Creator](httpsL//creator.ionic.io) - A drag and drop visual editor for crafting an app. It has limits, but it can be a great way to visually brainstorm and prototype your app.
+* [Ionic Creator](https://creator.ionic.io) - A drag and drop visual editor for crafting an app. It has limits, but it can be a great way to visually brainstorm and prototype your app.
 * Ionic Push Notifications - In private beta today, but use Ionic's push notification servers to deliver your app notifications. It can be a pain to handle this yourself!
 * Ionic Future Platform - There are other services in the works, such as analytics, design tools, and debugging assistance. This integrated platform will allow you rapid feature development designed to work seamlessly with your app.
 

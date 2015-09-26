@@ -2,7 +2,7 @@
 layout: post
 title: Ionic in Action is now available!
 date: 2015-09-24
-categories: Tips
+categories: Book
 ---
 
 I'm proud to say that the book is ready and available now! The final digital versions are coming out in a few days and the printer is sending the hard copies hot off the press.
